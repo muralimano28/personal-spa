@@ -6,8 +6,13 @@
 }
 
 @font-face {
-    font-family: "FontAwesome";
-    src: url("../fonts/FontAwesome.otf");
+	font-family: "KomiKax";
+	src: url("../fonts/komikax.ttf");
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("../fonts/FontAwesome.otf");
 }
 
 * {
@@ -27,7 +32,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	cursor: pointer;
 }
 
 a:hover {
@@ -52,7 +57,7 @@ a:hover {
 
 .icon:before {
 	font-family: "FontAwesome";
-	padding: 0.5em;
+	padding-right: 0.5em;
 }
 .icon.ham-menu:before {
 	content:"\f0c9";
@@ -74,4 +79,19 @@ a:hover {
 }
 .icon.pencil:before {
 	content: "\f040";
+}
+.icon.arrow-right:before {
+	content: "\f061";
+}
+.icon.v-ellipsis:before {
+	content: "\f142";
+}
+.icon.caret-right:before {
+	content: "\f0da";
+}
+
+.page .goto {
+	display: block;
+	margin: 1em 0;
+	font-size: 0.85em;
 }

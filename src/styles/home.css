@@ -1,0 +1,16 @@
+.home-page .name {
+	font-family: "KomiKax";
+}
+.home-page .tags {
+	font-size: 0.95em;
+	font-style: italic;
+}
+.home-page .social img {
+	height: 2em;
+	width: auto;
+}
+.home-page .social span {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em 1em 1em 0;
+}

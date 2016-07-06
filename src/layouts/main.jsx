@@ -29,7 +29,7 @@ class MainLayout extends React.Component {
 						<div className="sidebar-btn">
 							<span className="icon ham-menu" onClick={(e) => this._onClickHandler ("menu", null)}>Menu</span>
 						</div>
-						<div className="body">
+						<div className="middle">
 							{this.props.children}
 						</div>
 					</div>

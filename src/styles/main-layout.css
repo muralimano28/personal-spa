@@ -7,7 +7,7 @@
 .main-layout .sidebar-btn span {
 	cursor: pointer;
 }
-.main-layout .body {
+.main-layout .middle {
 	width: 80%;
 	margin: 0 auto;
 }
@@ -27,6 +27,7 @@
 }
 .main-layout .sidebar ul li a {
 	display: block;
+	text-decoration: none;
 }
 .main-layout.sidebar-is-active .content,
 .main-layout.sidebar-is-active .sidebar {
@@ -55,6 +56,9 @@
 	}
 }
 @media screen and (max-width: 27em) {
+	.main-layout .middle {
+		width: 100%;
+	}
 	.main-layout.sidebar-is-active .sidebar {
 		left: 50%;
 	}

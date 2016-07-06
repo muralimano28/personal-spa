@@ -1,0 +1,27 @@
+.experiences .projects span,
+.experiences .duration {
+	display: block;
+	margin: 1em 0;
+	font-size: 0.85em;
+}
+.experiences .projects span {
+	cursor: pointer;
+}
+.experiences .projects.is-active span:before {
+	content: "\f0d7";
+}
+.experiences .projects .container {
+	display: none;
+	margin: 0 1em;
+}
+.experiences .projects.is-active .container {
+	display: block;
+}
+.experiences .projects .details {
+	margin: 0 1em;
+}
+.experiences .projects .tags {
+	font-size: 0.75em;
+	/* font-style: italic; */
+}
+

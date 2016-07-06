@@ -1,14 +1,16 @@
 "use strict";
 
 import React from "react";
+import { Link } from "react-router";
 
 class Skills extends React.Component {
 	constructor (props) {
 		super(props);
 	}
 	render () {
-		return (<section className="skills-page">
+		return (<section className="skills page">
 					<h2 className="title icon pencil">Skills</h2>
+					<span className="goto">Goto / <Link to="/">home</Link></span>
 					<div className="body">
 					</div>
 				</section>);
