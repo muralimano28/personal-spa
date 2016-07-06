@@ -85,7 +85,7 @@ class Experiences extends React.Component {
 								<span
 									className="icon caret-right"
 									onClick={() => this._onClickHandler("projects", {"refName": "project-3"})}
-								>1 Project</span>
+								>2 Projects</span>
 								<div className="container">
 									<div>
 										<p>1. Mieteam ( <Link to="projects">view in projects section</Link> )</p>

@@ -1,0 +1,26 @@
+.skills .sub-container {
+	margin: 0 2em;
+}
+.skills .sub-container .skill {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 1em 1em 0;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+.skills .sub-container .skill .type,
+.skills .sub-container .skill .rating {
+	display: inline-block;
+	vertical-align: middle;
+}
+.skills .sub-container .skill .type {
+	padding: 0.25em 0.75em;
+}
+.skills .sub-container .skill .rating {
+	padding: 0.25em 0.75em 0.25em 0.25em;
+	text-align: center;
+}
+.skills .sub-container .skill .rating span {
+	display: block;
+	font-size: 0.75em;
+}

@@ -89,6 +89,9 @@ a:hover {
 .icon.caret-right:before {
 	content: "\f0da";
 }
+.icon.code:before {
+	content: "\f121";
+}
 
 .page .goto {
 	display: block;

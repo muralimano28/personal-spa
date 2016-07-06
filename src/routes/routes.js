@@ -19,7 +19,6 @@ import Experiences from "../components/experiences.jsx";
 import GithubRepos from "../components/github-repos.jsx";
 import Projects from "../components/projects.jsx";
 import Skills from "../components/skills.jsx";
-import ContactInfo from "../components/contact-info.jsx";
 
 const AppRoutes = React.createClass({
 	render: function() {
@@ -30,7 +29,6 @@ const AppRoutes = React.createClass({
 						<Route path="github-repos" component={GithubRepos} />
 						<Route path="projects" component={Projects} />
 						<Route path="skills" component={Skills} />
-						<Route path="contact-info" component={ContactInfo} />
 					</Route>
 					<Route path="*" component={ErrorPage}/>
 				</Router>);
