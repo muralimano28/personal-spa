@@ -1,0 +1,77 @@
+/* My own default styles */
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/FontAwesome.otf");
+}
+
+* {
+	box-sizing: border-box;
+	color: #fff;
+}
+
+html {
+	background: #43cea2; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+	font-family: "OpenSansRegular", sans-serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #43cea2;
+}
+
+.noul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.noul li:last-child {
+	margin-bottom: 0;
+}
+
+.clear {
+	display: block;
+	clear: both;
+	line-height: 0;
+}
+
+.icon:before {
+	font-family: "FontAwesome";
+	padding: 0.5em;
+}
+.icon.ham-menu:before {
+	content:"\f0c9";
+}
+.icon.home:before {
+	content: "\f015";
+}
+.icon.user:before {
+	content: "\f007";
+}
+.icon.graph:before {
+	content: "\f1dd";
+}
+.icon.github:before {
+	content: "\f09b";
+}
+.icon.projects:before {
+	content: "\f1d9";
+}
+.icon.pencil:before {
+	content: "\f040";
+}

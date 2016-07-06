@@ -1,0 +1,64 @@
+.main-layout .content {
+	padding: 1em 2em;
+}
+.main-layout .sidebar-btn {
+	text-align: right;
+}
+.main-layout .sidebar-btn span {
+	cursor: pointer;
+}
+.main-layout .body {
+	width: 80%;
+	margin: 0 auto;
+}
+.main-layout .sidebar {
+	display: none;
+	background: #3D3C3C;
+    background: -webkit-linear-gradient(top, #3D3C3C, #1B1B1B);
+    background: -moz-linear-gradient(top, #3D3C3C, #1B1B1B);
+    background: -o-linear-gradient(top, #3D3C3C, #1B1B1B );
+    background: -ms-linear-gradient(top, #3D3C3C, #1B1B1B);
+    background: linear-gradient(to bottom, #3D3C3C, #1B1B1B);
+}
+.main-layout .sidebar ul li {
+	padding: 1em 2em;
+	border-bottom: 1px solid #1A1A1A;
+	border-top: 1px solid #494949;
+}
+.main-layout .sidebar ul li a {
+	display: block;
+}
+.main-layout.sidebar-is-active .content,
+.main-layout.sidebar-is-active .sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+.main-layout.sidebar-is-active .content {
+	width: 80%;
+}
+.main-layout.sidebar-is-active .sidebar {
+	position: fixed;
+	left: 80%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+@media screen and (max-width: 48em) {
+	.main-layout.sidebar-is-active .content {
+		width: 100%;
+	}
+	.main-layout.sidebar-is-active .sidebar {
+		left: 70%;
+	}
+	.main-layout.sidebar-is-active .sidebar-btn {
+		margin-right: 30%;
+	}
+}
+@media screen and (max-width: 27em) {
+	.main-layout.sidebar-is-active .sidebar {
+		left: 50%;
+	}
+	.main-layout.sidebar-is-active .sidebar-btn {
+		margin-right: 60%;
+	}
+}
