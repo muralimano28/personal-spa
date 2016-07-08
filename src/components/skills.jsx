@@ -128,7 +128,7 @@ class Skills extends React.Component {
 										</div>
 									</div>
 									<div className="skill">
-										<span className="type">Angular.js (version 1)</span>
+										<span className="type">Angular.js (v.1)</span>
 										<div className="rating">
 											<span className="label">Rating</span>
 											<span>3.5/5</span>

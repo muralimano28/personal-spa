@@ -5,6 +5,23 @@
 	font-size: 0.95em;
 	font-style: italic;
 }
+.home-page .links {
+	text-align: center;
+}
+.home-page .links > div {
+	display: inline-block;
+	width: 23%;
+	margin: 1em 1%;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 3px;
+}
+.home-page .links a {
+	text-decoration: none;
+}
+.home-page .links a:hover {
+	color: #fff;
+}
 .home-page .social img {
 	height: 2em;
 	width: auto;
@@ -13,4 +30,19 @@
 	display: inline-block;
 	vertical-align: top;
 	margin: 1em 1em 1em 0;
+}
+@media screen and (max-width:48em) {
+	.home-page .links > div {
+		width: 40%;
+	}
+}
+@media screen and (max-width:27em) {
+	.home-page .links > div {
+		width: 45%;
+	}
+}
+@media screen and (max-width:43em) {
+	.home-page .links > div {
+		width: 50%;
+	}
 }

@@ -1,0 +1,37 @@
+.projects .tag {
+	margin: 0 0.25em 0 0;
+}
+.projects .tag,
+.projects .tag span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.85em;
+}
+.projects .tag .circle,
+.projects .tag .name {
+	background: #43cea2;
+}
+.projects .circle {
+	width: 1.75em;
+	height: 1.75em;
+	text-align: center;
+}
+.projects .tag .name {
+	height: 1.75em;
+	padding: 1px 0.5em 0 0;
+}
+.projects .circle span {
+	width: 25%;
+	height: 25%;
+	/* margin-top: 35%; */
+	background: #fff;
+	border-radius: 50%;
+}
+.projects .tag .triangle {
+	width: 0;
+	height: 0;
+	border: 10px solid #43cea2;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid transparent;
+}

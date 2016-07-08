@@ -16,38 +16,66 @@ class Home extends React.Component {
 							Front-end developer (sometimes back-end too) | Atheist | Foodie | Cooking enthusiast | Nature lover | Gadgets freak (Especially apple products)
 						</p>
 						<p className="about">
-							I am a front-end developer working in <a href="http://www.bookmyshow.com">bookmyshow.com</a>. I currently live in Bangalore. I was born and brought up in Villupuram-Tamilnadu. I graduated in Information technology from Anna university (MIT campus) Chennai. Sometimes I do freelance work too (checkout my <Link to="projects">projects section</Link>). I like to explore new technologies and latest gadgets. I spend my weekends  roaming around making new friends or trying out new things like this website (made this website out of sheer boredom). You can reach me out from <Link to="contact-info">here</Link>.
+							I am a front-end developer working in <a href="http://www.bookmyshow.com">bookmyshow.com</a>. I currently live in Bangalore. I was born and brought up in Villupuram-Tamilnadu. I graduated in Information technology from Anna university (MIT campus) Chennai. Sometimes I do freelance work too (checkout my <Link to="projects">projects section</Link>). I like to explore new technologies and latest gadgets. I spend my weekends  roaming around making new friends or trying out new things like this website (made this website out of sheer boredom).
 						</p>
-						<h3 className="icon user">Get in touch with me</h3>
-						<div className="contact-info">
-							<p>Phone: +91-9952923967 (or) +91-8904561358</p>
-							<p>Email: muralimano28@gmail.com</p>
-							<div className="social">
-								<span>
-									<a href="https://www.facebook.com/murali.mano28">
-										<img src="logo/facebook.svg" alt="facebook-link" />
-									</a>
-								</span>
-								<span>
-									<a href="https://twitter.com/muralimano28">
-										<img src="logo/twitter.svg" alt="twitter-link" />
-									</a>
-								</span>
-								<span>
-									<a href="https://plus.google.com/u/0/116208385688469662040">
-										<img src="logo/google.svg" alt="google-plus-link" />
-									</a>
-								</span>
-								<span>
-									<a href="https://github.com/muralimano28/">
-										<img src="logo/github.svg" alt="github-link" />
-									</a>
-								</span>
-								<span>
-									<a href="https://in.linkedin.com/in/murali-manohar-58821257">
-										<img src="logo/linkedin.svg" alt="linkedin-link" />
-									</a>
-								</span>
+						<div className="links">
+							<div>
+								<Link to="skills">
+									<h3 className="icon code">Skills</h3>
+									<p>HTML5, JS, CSS3, ...</p>
+								</Link>
+							</div>
+							<div>
+								<Link to="experiences">
+									<h3 className="icon graph">Experience</h3>
+									<p>2 years</p>
+								</Link>
+							</div>
+							<div>
+								<Link to="projects">
+									<h3 className="icon projects">Projects</h3>
+									<p>14 projects</p>
+								</Link>
+							</div>
+							<div>
+								<Link to="github-repos">
+									<h3 className="icon github">Github repos</h3>
+									<p>27 repos</p>
+								</Link>
+							</div>
+						</div>
+						<div>
+							<h3 className="icon user">Get in touch with me</h3>
+							<div className="contact-info">
+								<p>Phone: +91-9952923967 (or) +91-8904561358</p>
+								<p>Email: muralimano28@gmail.com</p>
+								<div className="social">
+									<span>
+										<a href="https://www.facebook.com/murali.mano28">
+											<img src="logo/facebook.svg" alt="facebook-link" />
+										</a>
+									</span>
+									<span>
+										<a href="https://twitter.com/muralimano28">
+											<img src="logo/twitter.svg" alt="twitter-link" />
+										</a>
+									</span>
+									<span>
+										<a href="https://plus.google.com/u/0/116208385688469662040">
+											<img src="logo/google.svg" alt="google-plus-link" />
+										</a>
+									</span>
+									<span>
+										<a href="https://github.com/muralimano28/">
+											<img src="logo/github.svg" alt="github-link" />
+										</a>
+									</span>
+									<span>
+										<a href="https://in.linkedin.com/in/murali-manohar-58821257">
+											<img src="logo/linkedin.svg" alt="linkedin-link" />
+										</a>
+									</span>
+								</div>
 							</div>
 						</div>
 					</div>

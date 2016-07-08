@@ -17,7 +17,6 @@
 
 * {
 	box-sizing: border-box;
-	color: #fff;
 }
 
 html {
@@ -29,12 +28,15 @@ html {
 body {
 	font-family: "OpenSansRegular", sans-serif;
 	font-size: 16px;
+	color: #fff;
 }
 
 a {
 	cursor: pointer;
+	color: #fff;
 }
 
+a.active,
 a:hover {
 	color: #43cea2;
 }
@@ -91,6 +93,9 @@ a:hover {
 }
 .icon.code:before {
 	content: "\f121";
+}
+.icon.close:before {
+	content: "\f00d";
 }
 
 .page .goto {
