@@ -1,3 +1,6 @@
+.projects a {
+	text-decoration: none;
+}
 .projects .tag {
 	margin: 0 0.25em 0 0;
 }
@@ -23,7 +26,6 @@
 .projects .circle span {
 	width: 25%;
 	height: 25%;
-	/* margin-top: 35%; */
 	background: #fff;
 	border-radius: 50%;
 }
@@ -34,4 +36,50 @@
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent;
 	border-right: 10px solid transparent;
+}
+.projects .body {
+	-webkit-column-count: 3;
+	-webkit-column-gap:   0px;
+	-moz-column-count:    3;
+	-moz-column-gap:      0px;
+	column-count:         3;
+	column-gap:           0px;
+}
+.projects .body .wrapper{
+	width: 100%;
+	height: auto;
+	padding: 0.5em 0.75em 0.5em 0;
+	-webkit-column-break-inside: avoid; /* Chrome, Safari */
+	page-break-inside: avoid;           /* Theoretically FF 20+ */
+	break-inside: avoid-column;         /* IE 11 */
+	display:table; 
+}
+.projects .body .wrapper .container {
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 0 1em;
+}
+.projects .body .technology {
+	font-size: 0.85em;
+	border-top: 1px solid #fff;
+	padding-top: 1em;
+}
+.projects .body .github-link {
+	font-size: 0.85em;
+	display: block;
+	padding: 1em 0;
+}
+@media screen and (max-width: 48em) {
+	.projects .body {
+		-webkit-column-count: 2;
+		-moz-column-count:    2;
+		column-count:         2;
+	}
+}
+@media screen and (max-width: 27em) {
+	.projects .body {
+		-webkit-column-count: 1;
+		-moz-column-count:    1;
+		column-count:         1;
+	}
 }

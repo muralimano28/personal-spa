@@ -97,6 +97,9 @@ a:hover {
 .icon.close:before {
 	content: "\f00d";
 }
+.icon.link:before {
+	content: "\f0c1";
+}
 
 .page .goto {
 	display: block;

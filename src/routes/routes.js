@@ -25,10 +25,10 @@ const AppRoutes = React.createClass({
 		return (<Router history={appHistory}>
 					<Route path="/" component={MainLayout}>
 						<IndexRoute component={Home} />
-						<Route path="experiences" component={Experiences} />
-						<Route path="github-repos" component={GithubRepos} />
-						<Route path="projects" component={Projects} />
 						<Route path="skills" component={Skills} />
+						<Route path="experiences" component={Experiences} />
+						<Route path="projects" component={Projects} />
+						{/*<Route path="github-repos" component={GithubRepos} />*/}
 					</Route>
 					<Route path="*" component={ErrorPage}/>
 				</Router>);

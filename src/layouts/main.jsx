@@ -47,7 +47,7 @@ class MainLayout extends React.Component {
 							<li><IndexLink to="skills" activeClassName="active">Skills</IndexLink></li>
 							<li><IndexLink to="experiences" activeClassName="active">Experience</IndexLink></li>
 							<li><IndexLink to="projects" activeClassName="active">Projects</IndexLink></li>
-							<li><IndexLink to="github-repos" activeClassName="active">Github repos</IndexLink></li>
+							{/*<li><IndexLink to="github-repos" activeClassName="active">Github repos</IndexLink></li>*/}
 						</ul>
 					</div>
 					{/* <footer>

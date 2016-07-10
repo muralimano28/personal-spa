@@ -37,12 +37,12 @@ class Home extends React.Component {
 									<p>14 projects</p>
 								</Link>
 							</div>
-							<div>
+							{/*<div>
 								<Link to="github-repos">
 									<h3 className="icon github">Github repos</h3>
 									<p>27 repos</p>
 								</Link>
-							</div>
+							</div>*/}
 						</div>
 						<div>
 							<h3 className="icon user">Get in touch with me</h3>

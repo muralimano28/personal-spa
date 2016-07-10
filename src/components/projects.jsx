@@ -29,20 +29,25 @@ class Projects extends React.Component {
 			default:
 				// default handles case "projects"
 				return projectsInfo.map((eachData, idx) => {
-					if (idx === 1) {
-						let title = (eachData.projectLink) ? 
-							(<a href={eachData.projectLink}>
-							 	<h3 className="icon link">{eachData.title}</h3>
-							 </a>) : (<h3>eachData.title</h3>);
+					let title = (eachData.projectLink) ? 
+						(<a href={eachData.projectLink}>
+						 	<h3 className="icon link">{eachData.title}</h3>
+						 </a>) : (<h3>{eachData.title}</h3>);
+					let githubLink = (eachData.githubLink) ?
+						(<a href={eachData.githubLink} className="github-link icon github">View in github</a>) : null;
 
-						console.log("eachData: ", eachData);
-						return (<div key={idx}>
-									<header>
+					return (<div key={idx} className="wrapper">
+								<div className="container">
+									<div>
 										{title}
-										{this._renderHelper("tags", {"tags": eachData.tags})}
-									</header>
-								</div>);
-					}
+										{/* githubLink */}
+									</div>
+									{this._renderHelper("tags", {"tags": eachData.tags})}
+									<p>{eachData.description}</p>
+									<p className="technology">{eachData.technology}</p>
+									{githubLink}
+								</div>
+							</div>);
 				});
 		}
 	}
